@@ -1,0 +1,36 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Install homebrew
+      include_role:
+        name: geerlingguy.mac.homebrew
+
+    - name: Install core packages via brew casks
+      community.general.homebrew_cask:
+        name: "{{ item }}"
+      ignore_errors: yes
+      with_items:
+        - iterm2
+        - warp
+        - brave-browser
+        - google-cloud-sdk
+        - visual-studio-code
+        - tailscale
+        - telegram
+        - signal
+        - ledger-live
+        - exodus
+        - 1password
+        - docker
+
+    - name: "Install homebrew packages"
+      community.general.homebrew:
+        name: [
+          'wget',
+           'mas',
+           'dockutil',
+           'gh',
+  ]
+
+
