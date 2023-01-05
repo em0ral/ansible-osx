@@ -23,6 +23,7 @@
         - exodus
         - 1password
         - docker
+        - balenaetcher
 
     - name: "Install homebrew packages"
       community.general.homebrew:
