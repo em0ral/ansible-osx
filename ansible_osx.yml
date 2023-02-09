@@ -25,7 +25,6 @@
         - 1password
         - docker
         - balenaetcher
-        - virtualbox
 
     - name: "Install homebrew packages"
       community.general.homebrew:
