@@ -31,11 +31,9 @@
         name: [
           'wget',
            'mas',
-           'dockutil',
            'gh',
-           'starship',
-           'fish',
            'awscli',
+           'iproute2mac',
   ]
 
 
