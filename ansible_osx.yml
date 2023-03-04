@@ -21,6 +21,7 @@
         - exodus
         - 1password
         - docker
+        - obsidian
 
     - name: "Install homebrew packages"
       community.general.homebrew:
