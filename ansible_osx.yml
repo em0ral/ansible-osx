@@ -11,20 +11,16 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - iterm2
         - warp
         - brave-browser
         - google-chrome
         - google-cloud-sdk
         - visual-studio-code
         - tailscale
-        - telegram
-        - signal
         - ledger-live
         - exodus
         - 1password
         - docker
-        - balenaetcher
 
     - name: "Install homebrew packages"
       community.general.homebrew:
