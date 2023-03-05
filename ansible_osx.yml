@@ -13,12 +13,10 @@
       with_items:
         - warp
         - brave-browser
-        - google-chrome
         - google-cloud-sdk
         - visual-studio-code
         - tailscale
         - ledger-live
-        - exodus
         - 1password
         - docker
         - obsidian
