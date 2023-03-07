@@ -14,13 +14,13 @@
         - warp
         - brave-browser
         - google-chrome
-        - google-cloud-sdk
-        - visual-studio-code
-        - tailscale
-        - ledger-live
-        - 1password
-        - docker
         - obsidian
+        - visual-studio-code
+        - docker
+        - ledger-live
+        - tailscale
+        - 1password
+        - google-cloud-sdk
 
     - name: "Install homebrew packages"
       community.general.homebrew:
