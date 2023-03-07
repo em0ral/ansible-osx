@@ -32,6 +32,7 @@
            'iproute2mac',
            'tmux',
            'fish',
+           'starship',
   ]
 
 
