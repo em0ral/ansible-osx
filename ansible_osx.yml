@@ -13,6 +13,7 @@
       with_items:
         - warp
         - brave-browser
+        - google-chrome
         - google-cloud-sdk
         - visual-studio-code
         - tailscale
@@ -30,6 +31,7 @@
            'awscli',
            'iproute2mac',
            'tmux',
+           'starship',
   ]
 
 
