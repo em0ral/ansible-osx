@@ -12,11 +12,12 @@
       ignore_errors: yes
       with_items:
         - warp
-        - brave-browser
-        - vivaldi
         - obsidian
         - visual-studio-code
         - docker
+        - brave-browser
+        - google-chrome
+        - vivaldi
         - ledger-live
         - tailscale
         - 1password
