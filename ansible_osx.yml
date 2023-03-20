@@ -11,9 +11,9 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - iterm2
         - warp
         - brave-browser
+        - vivaldi
         - obsidian
         - visual-studio-code
         - docker
@@ -32,7 +32,6 @@
            'iproute2mac',
            'tmux',
            'fish',
-           'starship',
   ]
 
 
