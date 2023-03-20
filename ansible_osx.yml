@@ -12,6 +12,7 @@
       ignore_errors: yes
       with_items:
         - warp
+        - iterm2
         - obsidian
         - visual-studio-code
         - docker
