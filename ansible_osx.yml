@@ -11,18 +11,19 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - warp
-        - iterm2
-        - obsidian
-        - visual-studio-code
-        - docker
         - brave-browser
         - google-chrome
         - vivaldi
+        - 1password
+        - visual-studio-code
+        - iterm2
+        - warp
+        - obsidian
+        - docker
         - ledger-live
         - tailscale
-        - 1password
         - google-cloud-sdk
+        - font-hack-nerd-font
 
     - name: "Install homebrew packages"
       community.general.homebrew:
@@ -33,7 +34,6 @@
            'awscli',
            'iproute2mac',
            'tmux',
-           'fish',
-  ]
+              ]
 
 
