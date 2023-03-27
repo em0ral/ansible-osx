@@ -15,7 +15,6 @@
         - google-chrome
         - vivaldi
         - 1password
-        - visual-studio-code
         - iterm2
         - warp
         - obsidian
@@ -23,7 +22,6 @@
         - ledger-live
         - tailscale
         - google-cloud-sdk
-        - font-hack-nerd-font
 
     - name: "Install homebrew packages"
       community.general.homebrew:
@@ -34,6 +32,8 @@
            'awscli',
            'iproute2mac',
            'tmux',
+           'starship',
+           'ykman',
               ]
 
 
