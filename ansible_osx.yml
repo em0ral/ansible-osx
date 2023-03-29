@@ -33,6 +33,7 @@
            'ykman',
            'tree-sitter',
            'neovim',
+           'nmap',
               ]
 
 
