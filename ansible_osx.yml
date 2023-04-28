@@ -13,8 +13,9 @@
       with_items:
         - brave-browser
         - 1password
+        - iterm2
         - warp
-        - obsidian
+        - obsidian 
         - docker
         - ledger-live
         - tailscale
