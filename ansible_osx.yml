@@ -20,6 +20,7 @@
         - ledger-live
         - tailscale
         - google-cloud-sdk
+        - google-drive 
 
     - name: "Install homebrew packages"
       community.general.homebrew:
