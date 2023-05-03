@@ -15,7 +15,6 @@
         - 1password
         - iterm2
         - warp
-        - obsidian 
         - docker
         - ledger-live
         - tailscale
@@ -26,7 +25,6 @@
       community.general.homebrew:
         name: [
           'wget',
-           'mas',
            'gh',
            'awscli',
            'iproute2mac',
