@@ -29,9 +29,6 @@
            'awscli',
            'iproute2mac',
            'tmux',
-           'starship',
-           'ykman',
-           'tree-sitter',
            'neovim',
            'nmap',
               ]
