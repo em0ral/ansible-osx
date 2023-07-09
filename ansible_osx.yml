@@ -13,12 +13,9 @@
       with_items:
         - brave-browser
         - 1password
-        - iterm2
         - warp
         - docker
-        - ledger-live
         - tailscale
-        - google-cloud-sdk
         - google-drive 
 
     - name: "Install homebrew packages"
@@ -26,11 +23,7 @@
         name: [
           'wget',
            'gh',
-           'awscli',
            'iproute2mac',
            'tmux',
            'neovim',
-           'nmap',
               ]
-
-
