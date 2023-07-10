@@ -16,7 +16,7 @@
         - warp
         - docker
         - tailscale
-        - google-drive 
+        - exodus
 
     - name: "Install homebrew packages"
       community.general.homebrew:
