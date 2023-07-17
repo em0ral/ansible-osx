@@ -17,6 +17,7 @@
         - docker
         - tailscale
         - exodus
+        - ledger-live
 
     - name: "Install homebrew packages"
       community.general.homebrew:
