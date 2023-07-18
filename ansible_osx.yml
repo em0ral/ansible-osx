@@ -11,11 +11,12 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - brave-browser
-        - 1password
         - warp
-        - docker
+        - brave-browser
         - tailscale
+        - 1password
+        - docker
+
 
     - name: "Install homebrew packages"
       community.general.homebrew:
