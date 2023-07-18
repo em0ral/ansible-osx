@@ -16,6 +16,7 @@
         - warp
         - iterm2
         - docker
+        - virtualbox 
         - tailscale
         - exodus
         - ledger-live
