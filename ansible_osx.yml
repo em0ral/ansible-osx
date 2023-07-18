@@ -14,12 +14,8 @@
         - brave-browser
         - 1password
         - warp
-        - iterm2
         - docker
-        - virtualbox 
         - tailscale
-        - exodus
-        - ledger-live
 
     - name: "Install homebrew packages"
       community.general.homebrew:
