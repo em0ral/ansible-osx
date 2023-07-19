@@ -16,7 +16,6 @@
         - tailscale
         - 1password
         - docker
-        - tailscale
 
 
     - name: "Install homebrew packages"
