@@ -17,6 +17,7 @@
         - 1password
         - docker
         - exodus
+        - ledger-live
 
 
     - name: "Install homebrew packages"
