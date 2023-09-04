@@ -28,4 +28,5 @@
            'iproute2mac',
            'tmux',
            'neovim',
+           'node'
               ]
