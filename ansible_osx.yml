@@ -13,20 +13,21 @@
       with_items:
         - warp
         - brave-browser
+        - firefox
         - tailscale
-        - protonvpn  
+        - protonvpn
         - 1password
         - docker
         - ledger-live
 
-
     - name: "Install homebrew packages"
       community.general.homebrew:
-        name: [
-          'wget',
-           'gh',
-           'iproute2mac',
-           'tmux',
-           'neovim',
-           'node'
-              ]
+        name:
+          [
+            'wget',
+            'gh',
+            'iproute2mac',
+            'tmux',
+            'neovim',
+            'node'
+          ]
