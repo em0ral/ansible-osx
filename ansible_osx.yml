@@ -27,4 +27,5 @@
             'iproute2mac',
             'tmux',
             'neovim',
+            'starship',
           ]
