@@ -13,7 +13,6 @@
       with_items:
         - warp
         - brave-browser
-        - firefox
         - 1password
         - docker
         - ledger-live
