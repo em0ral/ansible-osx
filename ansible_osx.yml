@@ -13,10 +13,11 @@
       with_items:
         - warp
         - brave-browser
+        - google-chrome
         - 1password
         - docker
-        - ledger-live
         - obsidian
+        - slack
 
     - name: "Install homebrew packages"
       community.general.homebrew:
@@ -27,4 +28,6 @@
             'iproute2mac',
             'tmux',
             'neovim',
+            'ykman'
           ]
+
