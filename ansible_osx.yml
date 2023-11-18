@@ -13,11 +13,9 @@
       with_items:
         - warp
         - brave-browser
-        - google-chrome
         - 1password
         - docker
-        - obsidian
-        - slack
+        - zoom
 
     - name: "Install homebrew packages"
       community.general.homebrew:
