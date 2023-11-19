@@ -16,6 +16,7 @@
         - 1password
         - docker
         - zoom
+        - ledger-live
 
     - name: "Install homebrew packages"
       community.general.homebrew:
