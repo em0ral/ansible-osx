@@ -15,7 +15,7 @@
         - brave-browser
         - 1password
         - docker
-        - zoom
+        - vmnware-fusion
         - ledger-live
 
     - name: "Install homebrew packages"
