@@ -15,7 +15,7 @@
         - brave-browser
         - 1password
         - docker
-        - vmnware-fusion
+        - zoom
 
     - name: "Install homebrew packages"
       community.general.homebrew:
