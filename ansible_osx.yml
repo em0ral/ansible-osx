@@ -16,6 +16,7 @@
         - 1password
         - docker
         - zoom
+        - vmware-fusion
 
     - name: "Install homebrew packages"
       community.general.homebrew:
