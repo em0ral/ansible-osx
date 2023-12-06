@@ -17,6 +17,7 @@
         - docker
         - zoom
         - vmware-fusion
+        - ledger-live
 
     - name: "Install homebrew packages"
       community.general.homebrew:
