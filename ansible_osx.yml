@@ -12,11 +12,9 @@
       ignore_errors: yes
       with_items:
         - warp
-        - google-chrome
         - brave-browser
         - 1password
         - docker
-        - zoom
         - vmware-fusion
         - ledger-live
 
@@ -25,7 +23,6 @@
         name:
           [
             'wget',
-            'gh',
             'iproute2mac',
             'tmux',
             'neovim',
