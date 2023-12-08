@@ -12,10 +12,10 @@
       ignore_errors: yes
       with_items:
         - warp
+        - google-chrome
         - brave-browser
         - 1password
         - docker
-        - vmware-fusion
 
     - name: "Install homebrew packages"
       community.general.homebrew:
@@ -24,6 +24,6 @@
             'wget',
             'iproute2mac',
             'tmux',
-            'neovim',
+            'neovim'
           ]
 
