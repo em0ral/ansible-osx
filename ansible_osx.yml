@@ -16,7 +16,6 @@
         - brave-browser
         - 1password
         - docker
-        - vmware-fusion
 
     - name: "Install homebrew packages"
       community.general.homebrew:
