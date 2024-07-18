@@ -13,8 +13,9 @@
       with_items:
         - warp
         - brave-browser
-        - 1password
         - docker
+        - 1password
+        
 
     - name: "Install homebrew packages"
       community.general.homebrew:
