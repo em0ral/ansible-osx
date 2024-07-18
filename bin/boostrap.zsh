@@ -1,6 +1,5 @@
 #!bin/zsh
 
-xcode-select --install
 touch /Users/em0ral/.zshrc
 mkdir /Users/em0ral/.ssh
 mkdir /Users/em0ral/Solana
