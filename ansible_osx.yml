@@ -12,7 +12,6 @@
       ignore_errors: yes
       with_items:
         - warp
-        - google-chrome
         - brave-browser
         - 1password
         - docker
