@@ -1,1 +1,3 @@
-# ansible-osx
+# Automated setup for MAC OSX
+
+
