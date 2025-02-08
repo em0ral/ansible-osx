@@ -12,6 +12,9 @@
       ignore_errors: yes
       with_items:
         - warp
+        - iterm2
+        - alacritty
+        - shostty
         - brave-browser
         - orbstack
         - 1password
