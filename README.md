@@ -1,3 +1,3 @@
-# Automated setup for MAC OSX
+# Automated setup for OSX
 
 
