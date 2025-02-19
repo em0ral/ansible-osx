@@ -11,6 +11,7 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
+        - iterm2
         - shostty
         - brave-browser
         - orbstack
