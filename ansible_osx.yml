@@ -11,13 +11,9 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - warp
-        - iterm2
-        - alacritty
         - shostty
         - brave-browser
         - orbstack
-        - ollama
         - 1password
         
 
