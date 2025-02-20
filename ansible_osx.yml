@@ -11,11 +11,11 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - iterm2
         - shostty
         - brave-browser
         - orbstack
         - 1password
+        - font-meslo-lg-nerd-font ledger-live
         
 
     - name: "Install homebrew packages"
@@ -25,6 +25,9 @@
             'wget',
             'iproute2mac',
             'tmux',
-            'neovim'
+            'neovim',
+            'zsh-autosuggestions',
+            'zsh-syntax-highlighting',
+            '
           ]
 
