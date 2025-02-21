@@ -11,11 +11,13 @@
         name: "{{ item }}"
       ignore_errors: yes
       with_items:
-        - warp
+        - ghostty
         - brave-browser
         - orbstack
+        - ollama  
         - 1password
-        - font-meslo-lg-nerd-font ledger-live
+        - signal 
+        - font-meslo-lg-nerd-font
         
 
     - name: "Install homebrew packages"
@@ -28,6 +30,8 @@
             'neovim',
             'zsh-autosuggestions',
             'zsh-syntax-highlighting',
-            'fastfetch'
+            'fastfetch',
+            'stow',
+            'eza'
           ]
 
